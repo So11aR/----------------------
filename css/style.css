@@ -10,10 +10,9 @@ nav {
 }
 
 .header {
-    /* padding-top: 20px; */
     min-height: calc(100vh - 95px);
     /* Местоположение фоновой картинки */
-    background-image: url('/img/bg.png');
+    background-image: url('../img/bg.png');
     /* Фоновое изображение выровнено по центру в горизонтальной и вертикальной плоскостях */
     background-position: center center;
     /* Фон не повторяется */
