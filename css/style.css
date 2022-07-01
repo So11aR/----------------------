@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+/* HEADER */
+nav {
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Play', sans-serif;
+    font-weight: 400;
+}
+
+.header {
+    /* padding-top: 20px; */
+    min-height: calc(100vh - 95px);
+    /* Местоположение фоновой картинки */
+    background-image: url('/img/bg.png');
+    /* Фоновое изображение выровнено по центру в горизонтальной и вертикальной плоскостях */
+    background-position: center center;
+    /* Фон не повторяется */
+    background-repeat: no-repeat;
+   
+    /* Это свойство заставляет фон менять масштаб при изменении размеров содержащего его контейнера*/
+    background-size: cover;
+    /* Цвет фона, который будет отображаться при загрузке фоновой картинки*/
+    background-color: #464646;
+    font-family: 'Play', sans-serif;
+}
+
+.menu-wrapper {
+    width: 100%;
+    display: flex;
+    padding: 10px 0;
+}
+
+.logo {
+    margin-top: -10px;
+}
+
+.nav-link {
+    font-size: 18px;
+}
+
+
+/* MEDIA QUERIES */
+
+@media (max-width: 991px) {
+    .menu-wrapper {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}
