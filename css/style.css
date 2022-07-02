@@ -1,11 +1,11 @@
 * {
     box-sizing: border-box;
+    font-family: 'Play', sans-serif;
 }
 
 /* HEADER */
 nav {
     /* font-family: 'Roboto', sans-serif; */
-    font-family: 'Play', sans-serif;
     font-weight: 400;
 }
 
@@ -22,7 +22,6 @@ nav {
     background-size: cover;
     /* Цвет фона, который будет отображаться при загрузке фоновой картинки*/
     background-color: #464646;
-    font-family: 'Play', sans-serif;
 }
 
 .menu-wrapper {
